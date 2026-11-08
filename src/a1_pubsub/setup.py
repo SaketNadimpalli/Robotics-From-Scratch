@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = a1_pubsub.talker:main',
+            'listener = a1_pubsub.listener:main',
         ],
     },
 )
