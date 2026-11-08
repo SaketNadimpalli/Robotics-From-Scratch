@@ -32,6 +32,7 @@ setup(
             'listener = a1_pubsub.listener:main',
             'sine_publisher = a1_pubsub.sine_publisher:main',
             'average_subscriber = a1_pubsub.average_subscriber:main',
+            'stats_client = a1_pubsub.stats_client:main',
         ],
     },
 )

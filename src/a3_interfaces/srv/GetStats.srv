@@ -1,0 +1,6 @@
+int32 last_n
+---
+float64 mean
+float64 min
+float64 max
+int32 count
