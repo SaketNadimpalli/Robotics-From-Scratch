@@ -1,0 +1,11 @@
+# Goal: what the client asks for
+float64 target_amplitude
+float64 duration
+---
+# Result: sent once at the end
+float64 final_amplitude
+bool completed
+---
+# Feedback: sent repeatedly while running
+float64 current_amplitude
+float64 progress
