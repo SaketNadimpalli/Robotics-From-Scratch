@@ -1,0 +1,15 @@
+/robot1/sine_publisher:
+  ros__parameters:
+    frequency: 0.5
+
+/robot2/sine_publisher:
+  ros__parameters:
+    frequency: 1.0
+
+/robot1/average_subscriber:
+  ros__parameters:
+    window_size: 20
+
+/robot2/average_subscriber:
+  ros__parameters:
+    window_size: 20
